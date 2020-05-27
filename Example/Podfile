@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MagicCollectionViewLayout_Example' do
+  pod 'MagicCollectionViewLayout', :path => '../'
+  pod 'Masonry', '1.1.0'
+  pod 'MJRefresh', '3.4.1'
+end
